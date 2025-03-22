@@ -5,10 +5,11 @@ import './Nav.css';
 const Nav = ({ userName }) => {
   return (
     <nav>
+      <img src={logomark} alt="" height={30} />
       <NavLink to="/" aria-label="Go to home">
-        <img src={logomark} alt="" height={30} />
-        <h4 className='project-title'>HomeBudget</h4>
+        <h4 className="project-title">HomeBudget</h4>
       </NavLink>
+
       {userName && (
         <Form
           method="post"

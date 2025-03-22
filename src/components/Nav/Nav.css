@@ -1,11 +1,13 @@
 nav {
-  background-color: rgb(54, 179, 179);
+  padding: 10px;
+  background-color: rgb(179, 243, 243);
   display: flex;
   align-items: center;
 }
 
 .project-title {
   color: rgb(15, 62, 62);
+  text-decoration: none;
 }
 
 .btn--warning {
@@ -13,5 +15,6 @@ nav {
   color: rgba(224, 49, 204, 0.782);
   border: 1px solid rgba(224, 49, 204, 0.782);
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 4px 8px;
+  margin: 5px;
 }
